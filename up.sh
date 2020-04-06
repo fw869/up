@@ -56,4 +56,4 @@ wget -4 -O /www/luci-static/vssr/css/vssr.css https://raw.githubusercontent.com/
 wget -4 -O /usr/sbin/trojan  https://raw.githubusercontent.com/LEDBO/tomato/master/v2ray/trojan && chmod 755 /usr/sbin/trojan
 
 		
-------------------- 版本更新成功！ ------------------- >> 
+-------------------Hello World 版本更新成功！ ------------------- >> -------------------v2ray/trojan二进制更新完成！ ------------------- >> 
