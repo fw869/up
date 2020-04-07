@@ -35,6 +35,10 @@ wget -4 -O /usr/lib/lua/luci/i18n/vssr.zh-cn.lmo  https://raw.githubusercontent.
 
 wget -4 -O /usr/lib/lua/luci/model/cbi/shadowsocksr/client.lua https://raw.githubusercontent.com/LEDBO/tomato/master/luasrc/client.lua && chmod 644 /usr/lib/lua/luci/model/cbi/shadowsocksr/client.lua
 
+wget -4 -O /usr/share/shadowsocksr/genred2config.sh  https://raw.githubusercontent.com/LEDBO/tomato/master/root/genred2config.sh && chmod 775 /usr/share/shadowsocksr/genred2config.sh
+
+wget -4 -O /usr/share/shadowsocksr/ssrplusupdate.sh  https://raw.githubusercontent.com/LEDBO/up/master/ssrplusupdate.sh && chmod 775 /usr/share/shadowsocksr/ssrplusupdate.sh
+
 wget -4 -O /etc/init.d/vssr https://raw.githubusercontent.com/LEDBO/tomato/master/root/etc/init.d/vssr && chmod 775 /etc/init.d/vssr
 
 wget -4 -O /usr/bin/vssr-switch https://raw.githubusercontent.com/LEDBO/tomato/master/root/usr/bin/vssr-switch && chmod 755 /usr/bin/vssr-switch
