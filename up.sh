@@ -37,7 +37,7 @@ wget -4 -O /usr/lib/lua/luci/model/cbi/shadowsocksr/client.lua https://raw.githu
 
 wget -4 -O /usr/share/shadowsocksr/genred2config.sh  https://raw.githubusercontent.com/LEDBO/tomato/master/root/genred2config.sh && chmod 775 /usr/share/shadowsocksr/genred2config.sh
 
-wget -4 -O /usr/share/shadowsocksr/ssrplusupdate.sh  https://raw.githubusercontent.com/LEDBO/up/master/ssrplusupdate.sh && chmod 775 /usr/share/shadowsocksr/ssrplusupdate.sh
+wget -4 -O /usr/share/shadowsocksr/ssrplusupdate.sh  https://raw.githubusercontent.com/LEDBO/tomato/master/root/ssrplusupdate.sh && chmod 775 /usr/share/shadowsocksr/ssrplusupdate.sh
 
 wget -4 -O /etc/init.d/vssr https://raw.githubusercontent.com/LEDBO/tomato/master/root/etc/init.d/vssr && chmod 775 /etc/init.d/vssr
 
