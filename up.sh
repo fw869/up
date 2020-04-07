@@ -33,6 +33,8 @@ wget -4 -O /usr/lib/lua/luci/view/vssr/status3.htm https://raw.githubusercontent
 
 wget -4 -O /usr/lib/lua/luci/i18n/vssr.zh-cn.lmo  https://raw.githubusercontent.com/LEDBO/tomato/master/po/zh-cn/vssr.zh-cn.lmo && chmod 644 /usr/lib/lua/luci/i18n/vssr.zh-cn.lmo
 
+wget -4 -O /usr/lib/lua/luci/model/cbi/shadowsocksr/servers.lua https://raw.githubusercontent.com/LEDBO/tomato/master/luasrc/controller/servers.lua && chmod 644 /usr/lib/lua/luci/model/cbi/shadowsocksr/servers.lua
+
 wget -4 -O /etc/init.d/vssr https://raw.githubusercontent.com/LEDBO/tomato/master/root/etc/init.d/vssr && chmod 775 /etc/init.d/vssr
 
 wget -4 -O /usr/bin/vssr-switch https://raw.githubusercontent.com/LEDBO/tomato/master/root/usr/bin/vssr-switch && chmod 755 /usr/bin/vssr-switch
