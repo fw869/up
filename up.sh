@@ -43,7 +43,7 @@ wget -4 -O /etc/init.d/vssr https://raw.githubusercontent.com/LEDBO/tomato/maste
 
 wget -4 -O /usr/bin/vssr-switch https://raw.githubusercontent.com/LEDBO/tomato/master/root/usr/bin/vssr-switch && chmod 755 /usr/bin/vssr-switch
 
-wget -4 -O /usr/bin/vssr-monitor https://raw.githubusercontent.com/LEDBO/tomato/master/root/usr/bin/vssr-monitor && chmod 755 /usr/bin/vssr-monitor
+# wget -4 -O /usr/bin/vssr-monitor https://raw.githubusercontent.com/LEDBO/tomato/master/root/usr/bin/vssr-monitor && chmod 755 /usr/bin/vssr-monitor
 
 wget -4 -O /usr/bin/vssr-rules https://raw.githubusercontent.com/LEDBO/tomato/master/root/usr/bin/vssr-rules && chmod 755 /usr/bin/vssr-rules
 
