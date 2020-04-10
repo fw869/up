@@ -23,6 +23,8 @@ wget -4 -O /usr/lib/lua/luci/model/cbi/vssr/subscription.lua https://raw.githubu
 
 wget -4 -O /usr/lib/lua/luci/model/cbi/shadowsocksr/servers.lua  https://raw.githubusercontent.com/LEDBO/tomato/master/luasrc/controller/shadowsocksr/servers.lua  && chmod 644  /usr/lib/lua/luci/model/cbi/shadowsocksr/servers.lua
 							      
+wget -4 -O /usr/lib/lua/luci/model/cbi/shadowsocksr/client-config.lua https://raw.githubusercontent.com/LEDBO/tomato/master/luasrc/controller/shadowsocksr/client-config.lua && chmod 644  /usr/lib/lua/luci/model/cbi/shadowsocksr/client-config.lua
+								 
 wget -4 -O /usr/lib/lua/luci/view/vssr/ssrurl.htm https://raw.githubusercontent.com/LEDBO/tomato/master/luasrc/view/vssr/ssrurl.htm && chmod 644 /usr/lib/lua/luci/view/vssr/ssrurl.htm
 
 wget -4 -O /usr/lib/lua/luci/view/vssr/status.htm https://raw.githubusercontent.com/LEDBO/tomato/master/luasrc/view/vssr/status.htm && chmod 644 /usr/lib/lua/luci/view/vssr/status.htm
