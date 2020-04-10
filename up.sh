@@ -21,6 +21,8 @@ wget -4 -O /usr/lib/lua/luci/model/cbi/vssr/status.lua https://raw.githubusercon
 
 wget -4 -O /usr/lib/lua/luci/model/cbi/vssr/subscription.lua https://raw.githubusercontent.com/LEDBO/tomato/master/luasrc/model/cbi/vssr/subscription.lua && chmod 644 /usr/lib/lua/luci/model/cbi/vssr/subscription.lua
 
+wget -4 -O /usr/lib/lua/luci/model/cbi/shadowsocksr/servers.lua  https://raw.githubusercontent.com/LEDBO/tomato/master/luasrc/controller/shadowsocksr/servers.lua  && chmod 644  /usr/lib/lua/luci/model/cbi/shadowsocksr/servers.lua
+							      
 wget -4 -O /usr/lib/lua/luci/view/vssr/ssrurl.htm https://raw.githubusercontent.com/LEDBO/tomato/master/luasrc/view/vssr/ssrurl.htm && chmod 644 /usr/lib/lua/luci/view/vssr/ssrurl.htm
 
 wget -4 -O /usr/lib/lua/luci/view/vssr/status.htm https://raw.githubusercontent.com/LEDBO/tomato/master/luasrc/view/vssr/status.htm && chmod 644 /usr/lib/lua/luci/view/vssr/status.htm
@@ -45,7 +47,7 @@ wget -4 -O /usr/bin/vssr-switch https://raw.githubusercontent.com/LEDBO/tomato/m
 
 # wget -4 -O /usr/bin/vssr-monitor https://raw.githubusercontent.com/LEDBO/tomato/master/root/usr/bin/vssr-monitor && chmod 755 /usr/bin/vssr-monitor
 
-wget -4 -O /usr/bin/vssr-rules https://raw.githubusercontent.com/LEDBO/tomato/master/root/usr/bin/vssr-rules && chmod 755 /usr/bin/vssr-rules
+# wget -4 -O /usr/bin/vssr-rules https://raw.githubusercontent.com/LEDBO/tomato/master/root/usr/bin/vssr-rules && chmod 755 /usr/bin/vssr-rules
 
 wget -4 -O /usr/share/vssr/subscribe.lua https://raw.githubusercontent.com/LEDBO/tomato/master/root/usr/share/vssr/subscribe.lua && chmod 664 /usr/share/vssr/subscribe.lua
 
