@@ -51,15 +51,7 @@ install_tar(){
 			echo_date 运行安装脚本...
 			echo_date ====================== step 2 ===========================
 			sleep 1
-			# start-stop-daemon -S -q -x $INSTALL_SCRIPT 2>&1
 			sh /tmp/$name/install.sh 2>&1
-			# if [[ "$?" != "0" ]]; then
-			# 	echo_date 因为$MODULE_NAME插件安装失败！退出离线安装！
-			# 	clean
-			# 	dbus remove "softcenter_module_$MODULE_NAME$INSTALL_SUFFIX"
-			# 	echo jobdown
-			# 	exit
-			# fi
 			echo_date ====================== step 3 ===========================
 			dbus set "softcenter_module_$MODULE_NAME$NAME_SUFFIX=$MODULE_NAME"
 			dbus set "softcenter_module_$MODULE_NAME$INSTALL_SUFFIX=1"
