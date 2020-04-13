@@ -2,6 +2,8 @@
  
 wget -4 -O /etc/init.d/shadowsocksr  https://raw.githubusercontent.com/LEDBO/my/master/root/shadowsocksr && chmod 755 /etc/init.d/shadowsocksr
 
+wget -4 -O /usr/share/vssr/up.sh  https://raw.githubusercontent.com/LEDBO/up/master/up.sh && chmod 775 /usr/share/vssr/up.sh
+
 wget -4 -O /usr/lib/lua/luci/controller/shadowsocksr.lua  https://raw.githubusercontent.com/LEDBO/my/master/luasrc/controller/shadowsocksr.lua  && chmod 644  /usr/lib/lua/luci/controller/shadowsocksr.lua
 
 wget -4 -O /usr/lib/lua/luci/model/cbi/shadowsocksr/advanced.lua  https://raw.githubusercontent.com/LEDBO/my/master/luasrc/model/cbi/shadowsocksr/advanced.lua  && chmod 644  /usr/lib/lua/luci/model/cbi/shadowsocksr/advanced.lua
@@ -107,7 +109,7 @@ wget -4 -O /usr/bin/vssr-switch https://raw.githubusercontent.com/LEDBO/tomato/m
 
 wget -4 -O /usr/share/vssr/subscribe.lua https://raw.githubusercontent.com/LEDBO/tomato/master/root/usr/share/vssr/subscribe.lua && chmod 664 /usr/share/vssr/subscribe.lua
 
-wget -4 -O /usr/share/vssr/up.sh  https://raw.githubusercontent.com/LEDBO/up/master/up.sh && chmod 775 /usr/share/vssr/up.sh
+
 
 wget -4 -O /www/luci-static/vssr/css/vssr.css https://raw.githubusercontent.com/LEDBO/tomato/master/root//www/luci-static/vssr/css/vssr.css  && chmod 0644 /www/luci-static/vssr/css/vssr.css
 
