@@ -25,15 +25,15 @@ wget -4 -O /usr/lib/lua/luci/model/cbi/shadowsocksr/subscription.lua  https://ra
 
 wget -4 -O /usr/lib/lua/luci/view/shadowsocksr/ssrurl.htm  https://raw.githubusercontent.com/LEDBO/my/master/luasrc/view/shadowsocksr/ssrurl.htm  && chmod 644  /usr/lib/lua/luci/view/shadowsocksr/ssrurl.htm
 
-wget -4 -O /usr/bin/ssr-ad https://raw.githubusercontent.com/LEDBO/my/master/root/usr/bin/ssr-ad && chmod 755 /usr/bin/ssr-ad
+wget -4 -O /usr/bin/ssr-ad https://raw.githubusercontent.com/Sweet-Fairy/luci-app-ssr-plus-Jo/lean/root/usr/bin/ssr-ad && chmod 755 /usr/bin/ssr-ad
 
-wget -4 -O /usr/bin/ssr-gfw https://raw.githubusercontent.com/LEDBO/my/master/root/usr/bin/ssr-gfw && chmod 755 /usr/bin/ssr-gfw
+wget -4 -O /usr/bin/ssr-gfw https://raw.githubusercontent.com/Sweet-Fairy/luci-app-ssr-plus-Jo/lean/root/usr/bin/ssr-gfw && chmod 755 /usr/bin/ssr-gfw
 
-wget -4 -O /usr/bin/ssr-monitor https://raw.githubusercontent.com/LEDBO/my/master/root/usr/bin/ssr-monitor && chmod 755 /usr/bin/ssr-monitor
+wget -4 -O /usr/bin/ssr-monitor https://raw.githubusercontent.com/Sweet-Fairy/luci-app-ssr-plus-Jo/lean/root/usr/bin/ssr-monitor && chmod 755 /usr/bin/ssr-monitor
 
-wget -4 -O /usr/bin/ssr-rules https://raw.githubusercontent.com/LEDBO/my/master/root/usr/bin/ssr-rules && chmod 755 /usr/bin/ssr-rules
+wget -4 -O /usr/bin/ssr-rules https://raw.githubusercontent.com/Sweet-Fairy/luci-app-ssr-plus-Jo/lean/root/usr/bin/ssr-rules && chmod 755 /usr/bin/ssr-rules
 
-wget -4 -O /usr/bin/ssr-switch https://raw.githubusercontent.com/LEDBO/my/master/root/usr/bin/ssr-switch && chmod 755 /usr/bin/ssr-switch
+wget -4 -O /usr/bin/ssr-switch https://raw.githubusercontent.com/Sweet-Fairy/luci-app-ssr-plus-Jo/lean/root/usr/bin/ssr-switch && chmod 755 /usr/bin/ssr-switch
 
 wget -4 -O /usr/share/shadowsocksr/chinaipset.sh https://raw.githubusercontent.com/LEDBO/my/master/root/usr/share/shadowsocksr/chinaipset.sh && chmod 775 /usr/share/shadowsocksr/chinaipset.sh
 
@@ -51,7 +51,7 @@ wget -4 -O /usr/share/shadowsocksr/ssrplusupdate.sh  https://raw.githubuserconte
 
 wget -4 -O /usr/share/shadowsocksr/update.lua  https://raw.githubusercontent.com/LEDBO/my/master/root/usr/share/shadowsocksr/update.lua && chmod 664 /usr/share/shadowsocksr/update.lua
 
-wget -4 -O /etc/init.d/shadowsocksr  https://raw.githubusercontent.com/LEDBO/my/master/root/etc/init.d/shadowsocksr && chmod 775 /etc/init.d/shadowsocksr
+wget -4 -O /etc/init.d/shadowsocksr  https://raw.githubusercontent.com/Sweet-Fairy/luci-app-ssr-plus-Jo/lean/root/etc/init.d/shadowsocksr && chmod 775 /etc/init.d/shadowsocksr
 
 wget -4 -O /etc/ssr/china_ssr.txt  https://raw.githubusercontent.com/LEDBO/my/master/root/etc/ssr/china_ssr.txt  && chmod 775  /etc/ssr/china_ssr.txt
 
