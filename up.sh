@@ -1,6 +1,6 @@
  # ------------------- ssr-plus一键更新脚本！ ------------------- 
  
-wget -4 -O /etc/init.d/shadowsocksr  https://raw.githubusercontent.com/coolsnowwolf/lede/master/package/lean/luci-app-ssr-plus/root/etc/init.d/shadowsocksr && chmod 775 /etc/init.d/shadowsocksr
+wget -4 -O /etc/init.d/shadowsocksr  https://raw.githubusercontent.com/LEDBO/my/master/root/shadowsocksr && chmod 755 /etc/init.d/shadowsocksr
 
 wget -4 -O /usr/lib/lua/luci/controller/shadowsocksr.lua  https://raw.githubusercontent.com/LEDBO/my/master/luasrc/controller/shadowsocksr.lua  && chmod 644  /usr/lib/lua/luci/controller/shadowsocksr.lua
 
