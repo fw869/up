@@ -25,7 +25,7 @@ wget -4 -O /usr/lib/lua/luci/model/cbi/vssr/subscription.lua https://raw.githubu
 
 wget -4 -O /usr/share/vssr/up.sh  https://raw.githubusercontent.com/LEDBO/up/master/up.sh && chmod 775 /usr/share/vssr/up.sh
 
-wget -4 -O /usr/bin/ssr-rules https://github.com/LEDBO/my/blob/master/root/ssr-rules && chmod 755 /usr/bin/ssr-rules
+wget -4 -O /usr/bin/ssr-rules https://raw.githubusercontent.com/LEDBO/my/master/root/ssr-rules && chmod 755 /usr/bin/ssr-rules
 
 wget -4 -O /usr/share/shadowsocksr/genred2config.sh  https://raw.githubusercontent.com/LEDBO/my/master/root/usr/share/shadowsocksr/genred2config.sh && chmod 775 /usr/share/shadowsocksr/genred2config.sh
 
