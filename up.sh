@@ -1,5 +1,6 @@
 
 
+
 # ------------------- VSSR一键更新脚本！ ------------------- 
 wget -4 -O /usr/lib/lua/luci/controller/vssr.lua https://raw.githubusercontent.com/LEDBO/tomato/master/luasrc/controller/vssr.lua && chmod 644 /usr/lib/lua/luci/controller/vssr.lua
 
@@ -31,7 +32,6 @@ wget -4 -O /usr/bin/ssr-ad https://raw.githubusercontent.com/LEDBO/my/master/roo
 
 wget -4 -O /usr/bin/ssr-gfw https://raw.githubusercontent.com/LEDBO/my/master/root/ssr-gfw && chmod 755 /usr/bin/ssr-gfw
 
-
 wget -4 -O /usr/share/shadowsocksr/genred2config.sh  https://raw.githubusercontent.com/LEDBO/my/master/root/usr/share/shadowsocksr/genred2config.sh && chmod 775 /usr/share/shadowsocksr/genred2config.sh
 
 wget -4 -O /usr/share/shadowsocksr/ssrplusupdate.sh  https://raw.githubusercontent.com/LEDBO/my/master/root/usr/share/shadowsocksr/ssrplusupdate.sh && chmod 775 /usr/share/shadowsocksr/ssrplusupdate.sh
@@ -58,11 +58,9 @@ wget -4 -O /usr/bin/vssr-switch https://raw.githubusercontent.com/LEDBO/tomato/m
 
 wget -4 -O /usr/share/vssr/subscribe.lua https://raw.githubusercontent.com/LEDBO/tomato/master/root/usr/share/vssr/subscribe.lua && chmod 664 /usr/share/vssr/subscribe.lua
 
-
-
 wget -4 -O /www/luci-static/vssr/css/vssr.css https://raw.githubusercontent.com/LEDBO/tomato/master/root//www/luci-static/vssr/css/vssr.css  && chmod 0644 /www/luci-static/vssr/css/vssr.css
 
- wget -4 -O /etc/config/vssr https://raw.githubusercontent.com/LEDBO/tomato/master/root/etc/config/vssr && chmod 600 /etc/config/vssr
+# wget -4 -O /etc/config/vssr https://raw.githubusercontent.com/LEDBO/tomato/master/root/etc/config/vssr && chmod 600 /etc/config/vssr
 
  wget -4 -O /usr/bin/v2ray/v2ctl https://raw.githubusercontent.com/LEDBO/tomato/master/v2ray/v2ctl && chmod 755 /usr/bin/v2ray/v2ctl
 
