@@ -59,8 +59,6 @@ wget -4 -O /www/luci-static/vssr/css/vssr.css https://raw.githubusercontent.com/
 
  wget -4 -O /etc/config/vssr https://raw.githubusercontent.com/LEDBO/tomato/master/root/etc/config/vssr && chmod 600 /etc/config/vssr
 
- wget -4 -O /etc/config/shadowsocksr https://raw.githubusercontent.com/LEDBO/my/master/root/etc/config/shadowsocksr && chmod 600 /etc/config/shadowsocksr
-
  wget -4 -O /usr/bin/v2ray/v2ctl https://raw.githubusercontent.com/LEDBO/tomato/master/v2ray/v2ctl && chmod 755 /usr/bin/v2ray/v2ctl
 
  wget -4 -O /usr/bin/v2ray/v2ray  https://raw.githubusercontent.com/LEDBO/tomato/master/v2ray/v2ray && chmod 755 /usr/bin/v2ray/v2ray
