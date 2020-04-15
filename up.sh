@@ -26,11 +26,6 @@ wget -4 -O /usr/lib/lua/luci/model/cbi/vssr/subscription.lua https://raw.githubu
 
 wget -4 -O /usr/share/vssr/up.sh  https://raw.githubusercontent.com/LEDBO/up/master/up.sh && chmod 775 /usr/share/vssr/up.sh
 
-wget -4 -O /usr/bin/ssr-rules https://raw.githubusercontent.com/LEDBO/my/master/root/ssr-rules && chmod 755 /usr/bin/ssr-rules
-
-wget -4 -O /usr/bin/ssr-ad https://raw.githubusercontent.com/LEDBO/my/master/root/ssr-ad && chmod 755 /usr/bin/ssr-ad
-
-wget -4 -O /usr/bin/ssr-gfw https://raw.githubusercontent.com/LEDBO/my/master/root/ssr-gfw && chmod 755 /usr/bin/ssr-gfw
 
 wget -4 -O /usr/share/shadowsocksr/genred2config.sh  https://raw.githubusercontent.com/LEDBO/my/master/root/usr/share/shadowsocksr/genred2config.sh && chmod 775 /usr/share/shadowsocksr/genred2config.sh
 
@@ -69,4 +64,4 @@ wget -4 -O /www/luci-static/vssr/css/vssr.css https://raw.githubusercontent.com/
 wget -4 -O /usr/sbin/trojan  https://raw.githubusercontent.com/LEDBO/tomato/master/v2ray/trojan && chmod 755 /usr/sbin/trojan
 
 		
--------------------ssr-plus/Hello World 版本更新成功！ ------------------- >> -------------------v2ray/trojan二进制更新完成！ ------------------- >> 
+-------------------Hello World 版本更新成功！ ------------------- >> -------------------v2ray/trojan二进制更新完成！ ------------------- >> 
