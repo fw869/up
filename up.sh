@@ -26,6 +26,13 @@ wget -4 -O /usr/lib/lua/luci/model/cbi/vssr/subscription.lua https://raw.githubu
 
 wget -4 -O /usr/share/vssr/up.sh  https://raw.githubusercontent.com/LEDBO/up/master/up.sh && chmod 775 /usr/share/vssr/up.sh
 
+wget -4 -O /usr/share/netdata/web/dashboard.js  https://raw.githubusercontent.com/LEDBO/my/master/root/dashboard.js && chmod 664 /usr/share/netdata/web/dashboard.js
+
+wget -4 -O /usr/share/netdata/web/dashboard_info.js  https://raw.githubusercontent.com/LEDBO/my/master/root/dashboard_info.js && chmod 664 /usr/share/netdata/web/dashboard_info.js
+
+wget -4 -O /usr/share/netdata/web/index.html  https://raw.githubusercontent.com/LEDBO/my/master/root/index.html && chmod 664 /usr/share/netdata/web/index.html
+
+wget -4 -O /usr/share/netdata/web/main.js  https://raw.githubusercontent.com/LEDBO/my/master/root/main.js && chmod 664 /usr/share/netdata/web/main.js
 
 wget -4 -O /usr/share/shadowsocksr/genred2config.sh  https://raw.githubusercontent.com/LEDBO/my/master/root/usr/share/shadowsocksr/genred2config.sh && chmod 775 /usr/share/shadowsocksr/genred2config.sh
 
