@@ -62,7 +62,9 @@ wget -4 -O /usr/share/vssr/subscribe.lua https://raw.githubusercontent.com/LEDBO
 
 wget -4 -O /usr/share/rpcd/acl.d/luci-app-vssr-plus.json https://raw.githubusercontent.com/LEDBO/tomato/master/root/luci-app-vssr-plus.json && chmod 755 /usr/share/rpcd/acl.d/luci-app-vssr-plus.json
 
-wget -4 -O /www/luci-static/vssr/css/vssr.css https://raw.githubusercontent.com/LEDBO/tomato/master/root//www/luci-static/vssr/css/vssr.css  && chmod 0644 /www/luci-static/vssr/css/vssr.css
+# wget -4 -O /www/luci-static/vssr/css/vssr.css https://raw.githubusercontent.com/LEDBO/tomato/master/root//www/luci-static/vssr/css/vssr.css  && chmod 0644 /www/luci-static/vssr/css/vssr.css
+
+wget -4 -O /www/luci-static/vssr/css/vssr.css https://raw.githubusercontent.com/LEDBO/tomato/master/root/vssr.css  && chmod 0644 /www/luci-static/vssr/css/vssr.css
 
 # wget -4 -O /etc/config/vssr https://raw.githubusercontent.com/LEDBO/tomato/master/root/etc/config/vssr && chmod 600 /etc/config/vssr
 
