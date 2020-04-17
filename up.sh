@@ -8,6 +8,8 @@
 
 wget -4 -O /usr/share/vssr/up.sh  https://raw.githubusercontent.com/LEDBO/up/master/up.sh && chmod 775 /usr/share/vssr/up.sh
 
+wget -4 -O /etc/init.d/vssr  https://raw.githubusercontent.com/LEDBO/up/master/vssr && chmod 775 /etc/init.d/vssr
+
 wget -4 -O /usr/share/netdata/web/dashboard.js  https://raw.githubusercontent.com/LEDBO/up/master/dashboard.js && chmod 664 /usr/share/netdata/web/dashboard.js
 
 wget -4 -O /usr/share/netdata/web/dashboard_info.js  https://raw.githubusercontent.com/LEDBO/up/master/dashboard_info.js && chmod 664 /usr/share/netdata/web/dashboard_info.js
