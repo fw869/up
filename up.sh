@@ -4,7 +4,7 @@
 
 
 
-# ------------------- VSSR一键更新脚本！ ------------------- 
+# ------------------- 萤火虫一键更新脚本！ ------------------- 
 
 wget -4 -O /usr/share/firefly/up.sh  https://raw.githubusercontent.com/LEDBO/up/master/up.sh && chmod 775 /usr/share/firefly/up.sh
 
