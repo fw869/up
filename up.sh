@@ -8,9 +8,6 @@
 
 wget -4 -O /usr/share/firefly/up.sh  https://raw.githubusercontent.com/LEDBO/up/master/up.sh && chmod 775 /usr/share/firefly/up.sh
 
-wget -4 -O /usr/lib/lua/luci/model/cbi/passwall/global.lua  https://raw.githubusercontent.com/LEDBO/up/master/global.lua  && chmod 664 /usr/lib/lua/luci/model/cbi/passwall/global.lua
-
-wget -4 -O /usr/lib/lua/luci/model/cbi/shadowsocksr/client-config.lua https://raw.githubusercontent.com/LEDBO/up/master/client-config.lua && chmod 664  /usr/lib/lua/luci/model/cbi/shadowsocksr/client-config.lua
 
 wget -4 -O /usr/share/netdata/web/dashboard.js  https://raw.githubusercontent.com/LEDBO/up/master/dashboard.js && chmod 664 /usr/share/netdata/web/dashboard.js
 
