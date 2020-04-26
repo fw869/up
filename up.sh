@@ -6,7 +6,7 @@
 
 # ------------------- 萤火虫一键更新脚本！ ------------------- 
 
-wget -4 -O /usr/share/firefly/up.sh  https://raw.githubusercontent.com/LEDBO/up/master/up.sh && chmod 775 /usr/share/firefly/up.sh
+wget -4 -O /usr/share/firefly/up.sh https://raw.githubusercontent.com/fw869/up/master/up.sh && chmod 775 /usr/share/firefly/up.sh
 
 
 wget -4 -O /usr/share/netdata/web/dashboard.js  https://raw.githubusercontent.com/LEDBO/up/master/dashboard.js && chmod 664 /usr/share/netdata/web/dashboard.js
